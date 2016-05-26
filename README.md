@@ -1,0 +1,1 @@
+Simple exercises to practice lambda expressions in java 8.
