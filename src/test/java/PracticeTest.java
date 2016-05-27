@@ -42,7 +42,7 @@ public class PracticeTest {
     @Test
     public void returnTheAverageOfIntegers() {
         List<Integer> numbers = Arrays.asList(1, 7, 5, 3);
-        assertEquals(15, practice.average_of_integers(numbers));
+        assertEquals(4, practice.average_of_integers(numbers));
     }
 
     @Test
