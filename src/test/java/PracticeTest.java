@@ -59,7 +59,7 @@ public class PracticeTest {
     @Test
     public void filterAllTheNamesStartingWithH() {
         List<String> names = Arrays.asList("Harold", "John", "Root", "Shaw");
-        assertEquals("Harold", practice.filter_all_the_names_starting_with_h(names));
+        assertEquals(Arrays.asList("Harold"), practice.filter_all_the_names_starting_with_h(names));
     }
 
     @Test

@@ -14,7 +14,7 @@ public class Practice {
     }
 
 
-    public String filter_all_the_names_starting_with_h(List<String> names) {
+    public List<String> filter_all_the_names_starting_with_h(List<String> names) {
         throw new UnsupportedOperationException();
     }
 
