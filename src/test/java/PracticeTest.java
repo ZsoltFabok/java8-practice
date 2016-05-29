@@ -84,7 +84,7 @@ public class PracticeTest {
     @Test
     public void sortPersonsByTheirAge() {
         List<Person> persons = Arrays.asList(person1, person2, person3, person4);
-        List<Person> expected = Arrays.asList(person3, person4, person2, person1);
+        List<Person> expected = Arrays.asList(person4, person3, person2, person1);
         assertEquals(expected, practice.sort_by_age(persons));
     }
 
